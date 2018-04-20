@@ -12,6 +12,7 @@ def draw(data):
     plt.ylabel("y")
     plt.title("data")
     plt.plot(data[:,0], data[:,1], 'ro')
+    plt.savefig("data.jpg")
     plt.show()
 
 
